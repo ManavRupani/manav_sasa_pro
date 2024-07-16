@@ -10,8 +10,8 @@ function MainCard() {
         </div>
         <div className="card-content">
           <div className="text-center h2 mt-5">Manav Rupani</div>
-          <div className=" text-center">Developer</div>
-          <div className="d-flex justify-content-between px-3 icon-c mx-auto" >
+          <div className="text-center mt--2">Developer</div>
+          <div className="d-flex justify-content-between px-3 icon-c mx-auto">
             <div className="svg-con">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -75,10 +75,15 @@ function MainCard() {
           </div>
           <div className="contactcard">
             <div className="custom-card">
-              <ul className="list-group list-group-flush">
-                <li className="list-group-item">Cras justo odio</li>
-                <li className="list-group-item">Dapibus ac facilisis in</li>
-                <li className="list-group-item">Vestibulum at eros</li>
+              <ul className="list-group list-group-flush ">
+                <li className="list-group-item li-c">Cras justo odio</li>
+                <li className="list-group-item li-c">
+                  Dapibus ac facilisis in
+                </li>
+                <li className="list-group-item li-c">Vestibulum at eros</li>
+                <li className="list-group-item">
+                  <button className="w-100">CV</button>
+                </li>
               </ul>
             </div>
           </div>
