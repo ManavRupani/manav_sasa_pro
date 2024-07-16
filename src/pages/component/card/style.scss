@@ -1,0 +1,67 @@
+.main-card {
+    width: 400px;
+    height: 700px;
+    align-items: center;
+    height: 100vh;
+
+    .card {
+        position: relative;
+        padding-top: 50px;
+        /* Adjust according to your needs */
+        text-align: center;
+
+        .card-image-container {
+            position: absolute;
+            top: -50px;
+            /* Adjust according to your needs */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            /* Adjust according to your needs */
+            height: 200px;
+            /* Adjust according to your needs */
+            background-color: #ddd;
+            /* Adjust according to your needs */
+            border-radius: 0.25rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .c-img {
+                /* Style the content inside the image container */
+            }
+        }
+
+        .card-content {
+            padding-top: 60px;
+            /* Adjust to make space for the image */
+        }
+        .icon-c{
+            width: 296px;
+           
+    
+        }
+
+
+    }
+    .svg-con{
+        background-color: #F2F7FC;
+        width: 60px;
+        height: 60px;
+        justify-content: center;
+        svg{
+            position: relative;
+            top: 25%;
+            margin: auto;
+            text-align: center;
+            color: #1877F2;
+        }
+        border-radius: 12.5%;
+    }
+    .contactcard{
+        height: 350px;
+        width: 350px;
+        margin: 0 auto;
+        
+    }
+}
